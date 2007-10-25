@@ -1,0 +1,23 @@
+Revision history for Win32-UrlCache
+
+0.04 2007/10/26
+  - renamed from Win32-IEHistory to Win32-UrlCache
+  - moved old ::FileTime to ::FileTimePP and added new ::FileTime
+    which uses Win32::API
+  - added ::Title to extract a cached html title (for Win32 only)
+  - bumped up version req of Math::BigInt to 1.78 to use 'try'
+
+0.03 2007/10/25
+  - no new feature
+  - switched to Test::UseAllModules to prevent me from listing
+    a wrong module in the t/00_load.t. orz
+  - fixed a bug in the synopsis
+
+0.02 2007/10/24
+  - largely refactored to diminish memory usage
+  - now urls/redrs/leaks accept a callback function
+  - accessors of each entry are now writable
+
+0.01 2007/10/22
+  - initial release
+
