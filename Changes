@@ -1,5 +1,10 @@
 Revision history for Win32-UrlCache
 
+0.05 2007/11/01
+  - no new feature
+  - forgot to skip t/20_filetime.t on non-Win32 platforms,
+    which was platform-independent but is for Win32 only now
+
 0.04 2007/10/26
   - renamed from Win32-IEHistory to Win32-UrlCache
   - moved old ::FileTime to ::FileTimePP and added new ::FileTime

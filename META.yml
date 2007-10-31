@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Win32-UrlCache
-version:             0.04
+version:             0.05
 abstract:            parse Internet Explorer's history/cache/cookies
 license:             perl
 generated_by:        ExtUtils::MakeMaker version 6.36

@@ -1,4 +1,5 @@
 use strict;
+use warnings;
 use Test::More qw( no_plan );
 use Win32::UrlCache::FileTimePP;
 
