@@ -15,7 +15,7 @@ BEGIN {
   }
 }
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 use constant BADFOOD => chr(0x0D).chr(0xF0).chr(0xAD).chr(0x0B);
 

@@ -1,5 +1,9 @@
 Revision history for Win32-UrlCache
 
+0.06 2008/04/06
+  - no new feature
+  - added DateTime/Math::BigInt dependencies even on Win32
+
 0.05 2007/11/01
   - no new feature
   - forgot to skip t/20_filetime.t on non-Win32 platforms,

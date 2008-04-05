@@ -10,15 +10,14 @@ WriteMakefile(
   PREREQ_PM => {
     'Class::Accessor::Fast' => 0,
     'Test::UseAllModules'   => 0,
+    'DateTime'              => 0,
+    'Math::BigInt'          => 1.78,
     ( $^O eq 'MSWin32'
       ? (
           'Win32::API'         => 0,
           'Win32::TieRegistry' => 0,
         )
-      : (
-          'DateTime'     => 0,
-          'Math::BigInt' => 1.78,
-        )
+      : ()
     ),
   },
   ($ExtUtils::MakeMaker::VERSION >= 6.31
